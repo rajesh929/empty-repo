@@ -1,0 +1,12 @@
+name: Sample Build file
+
+on:
+  push:
+    branches:
+      - master
+
+runs-on: ubuntu-latest
+
+steps:
+  - name: sampletask
+    run: echo "this is my first build in this repo"
